@@ -30,6 +30,7 @@ A place for documenting ideas
 
 ## Tools
 | Description | URL |
+| ----------- | --- | 
 | PDF extraction library | https://github.com/euske/pdfminer/ |
 | Natural language toolkit | https://www.nltk.org/ |
 | SpaCy | https://spacy.io/ |
