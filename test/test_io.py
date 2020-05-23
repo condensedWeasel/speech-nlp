@@ -12,3 +12,5 @@ print( text )
 filenames = pdf_to_text_file( os.path.join( root, 'resources', 'samples' ) )
 
 print(filenames)
+
+#filenames = pdf_to_text_file( os.path.join( root, '..', 'data') )
