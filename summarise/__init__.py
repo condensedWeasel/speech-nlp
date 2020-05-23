@@ -23,5 +23,5 @@ Copyright 2020 Peter Dowell <p.g.dowell@gmail.com>
 __version__ = '0.1.0'
 
 #TODO: define modules
-__all__ = [];
+__all__ = ['io']
 
