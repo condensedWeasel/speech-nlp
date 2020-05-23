@@ -10,6 +10,7 @@ A place for documenting ideas
 ## Notes
 - Small data set (3 documents)
 - .pdf format - requires pre-processing to extract raw text
+- Prioritise pre-processing / pipeline & exploratory analysis
 - Brief mentions 3 topics - could be relavent for topic modelling?
 - Use regular expressions to extract references, headings, etc?
 
