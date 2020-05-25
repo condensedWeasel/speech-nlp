@@ -19,6 +19,7 @@ A place for documenting ideas
 | Technology | Description | Time  | Notes |
 | ---------- | ----------- | :---: | ----- | 
 | Bag of words / TF-IDF | Token frequency analysis | Low | Pre-requisite for other techniques |
+| Word embeddings / vectors |  Extracts additional features as words, or phrases are mapped to vectors  | Low | Useful for comparing documents / sentences, try spaCy Word2Vec |
 | Word cloud | Visualisation | Low | Useful for exploratory analysis of small data sets |
 | Named entity recognition | Text pre-processing for identifying names / organisations / locations | Low | Useful for mining subject of text |
 | Parts of speech tagging | Identifies the grammatical group of a given word (e.g. noun, verb) | Low | |
@@ -28,13 +29,20 @@ A place for documenting ideas
 | Extractive  Summarisation | Identfy key phrases & extract from document | High | TextRank? |
 | Abstractive  Summarisation | Generates new sentences based on original document using deep learning | High | Requires pre-trained model (RNN, LSTM, Transformers) |
 
-
 ## Tools
 | Description | URL |
 | ----------- | --- | 
 | PDF extraction library | https://github.com/euske/pdfminer/ |
 | Natural language toolkit | https://www.nltk.org/ |
 | SpaCy | https://spacy.io/ |
+
+## Applications
+- Use BOW / TF-IDF / named entity analysis to tag documents for searching database
+- Identify sphere's of influence - index references & define impact within organisation
+- Identify clusters of people with similar expertise (people you may not be aware of in a different part of the organisation)
+- Use extractive / abstractive summarisation as a preview to speeches
+
+
 
 ## References
 
