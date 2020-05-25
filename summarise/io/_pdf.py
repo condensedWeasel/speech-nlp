@@ -6,6 +6,7 @@ from pdfminer.converter import TextConverter
 from pdfminer.layout import LAParams
 from pdfminer.pdfpage import PDFPage
 from io import BytesIO
+import pandas as pd
  
 
 def _write_file( path, text ):
@@ -94,3 +95,38 @@ def pdf_to_text_file( *args ):
         else:
             raise Exception( 'Invalid path [{}]'.format(path) )        
     return filenames
+
+def doc_to_csv( filenames, csv_path ):
+    """Creates dataframe of files and saves to csv
+
+    Parameters
+    ----------
+    filenames : list 
+        List containing paths of .txt file documents
+
+    csv_path : string
+        String containing full path & name of csv output
+
+    Returns
+    ------- 
+    df : pandas.Dataframe
+        Dataframe containing data
+    """
+    # Compile list of document text
+    documents   = []
+    names       = []
+    for name in filenames :
+        # Extract document text
+        file = open( name, "r", encoding="utf8" )
+        text = file.read()
+        documents.append( text )
+        # Extract name of document from path
+        s = os.path.split(name)
+        names.append( s[1] )
+    # Create data frame
+    d   = {'Name': names, 'Text': documents }
+    df  = pd.DataFrame( d )
+    # Save to csv
+    df.to_csv( csv_path )
+    return df
+    

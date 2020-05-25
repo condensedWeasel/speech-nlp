@@ -2,6 +2,15 @@
 #
 # Copyright 2020 Peter Dowell <p.g.dowell@gmail.com>
 
+def get_version():
+    version_re = re.compile("""__version__[\s]*=[\s]*['|"](.*)['|"]""")
+    init_file = os.path.join( os.path.dirname(__file__), DISTNAME, "__init__.py" )
+    with open(init_file) as file:
+        content = file.read()
+        match = version_re.search(content)
+        version = match.group(1)
+    return version
+
 #Define constants
 DISTNAME="summarise"
 MAINTAINER="Peter Dowell"
@@ -50,15 +59,6 @@ def setup_package():
 		            )
     metadata['packages'] = find_packages()
     setup(**metadata)
-
-def get_version():
-    version_re = re.compile("""__version__[\s]*=[\s]*['|"](.*)['|"]""")
-    init_file = os.path.join( os.path.dirname(__file__), DISTNAME, "__init__.py" )
-    with open(init_file) as file:
-        content = file.read()
-        match = version_re.search(content)
-        version = match.group(1)
-    return version
 
 if __name__ == "__main__":
     setup_package()

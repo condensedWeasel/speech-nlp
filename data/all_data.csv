@@ -1,0 +1,1988 @@
+,Name,Text
+0,cyborg-supervision-speech-by-james-proudman.txt," 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+Cyborg supervision – the application of advanced analytics in 
+prudential supervision 
+ 
+Speech given by 
+
+James Proudman 
+
+Executive Director, UK Deposit Takers Supervision 
+
+Workshop on research on bank supervision 
+
+Bank of England 
+
+19 November 2018 
+
+I am grateful to Sian Besley, David Bholat, Charlotte Bull, Stephen Denby, Ryan Lovelock, Clair Mills, 
+Philip Sellar, Pete Thomas and Sam Woods for their assistance in preparing these remarks and 
+conducting background research and analysis. 
+ 
+ 
+
+ 
+All speeches are available online at www.bankofengland.co.uk/publications/Pages/speeches/default.aspx 
+
+1 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+I. 
+
+Introduction 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+II. 
+
+Recognising faces comes instinctively to humans. Until fairly recently, however, it proved beyond the 
+
+ability of computers. Advances in artificial intelligence (AI) - the use of a machine to simulate human 
+
+behaviour – and its subset, machine learning (ML) – in which a machine teaches itself to perform tasks – 
+
+are now making facial recognition software much more widely available. You might even use it to access 
+
+your bank account.   
+
+Because it is so easy for us but so hard for computers, facial recognition is a good illustration of the 
+
+challenges faced in developing AI. Enabling a machine to teach itself to recognise a face requires 
+
+sophisticated algorithms that can learn from data. Advances in computational power and algorithmic 
+
+techniques are helping machines become more human and super-human like. ML also requires lots of 
+
+data from which to learn: data are the fuel that powers it – the more data used to train the algorithms, the 
+
+more accurate their predictions typically become. Hence advances in AI are often associated with  
+
+Big Data and the recent huge advances in the volume and variety of data available (see Figure 1).   
+
+As the sophistication of algorithms and volume of data rise, the uses of AI in every-day life are 
+
+expanding. Finance is no exception. In this speech I want to explore the impact of AI and advanced 
+
+analytics more broadly, on the safety and soundness of the firms we supervise at the PRA, and how we 
+
+are starting to apply such technology to the supervision of firms. In particular, I want to explore the 
+
+seeming tension between the PRA’s supervisory regime that is firmly centred on human judgment, and 
+
+our increasing interest and investment in automation, machine learning and artificial intelligence. 
+
+Changing the nature of the risks we supervise 
+
+Like many other firms, banks are looking to harness the power and speed of AI. If you were to take some 
+
+parts of the media at face value you might be tempted to conclude that a revolution is underway. There 
+
+are plenty of examples of innovation to point to – from the use of ML-driven financial-market trading 
+
+algorithms; to the introduction of online banking platforms that generate alerts to customers on trends 
+
+and irregularities in their spending habits; to new apps that suggest switching utility providers to the 
+
+cheapest provider.1 
+
+On closer inspection, however, the situation seems rather less revolutionary and more evolutionary. No 
+
+hard data on industry-wide uptake are available but intelligence from supervisors is that the scale of 
+
+adoption of advanced analytics across the industry so far is relatively slow. There is clearly, however, the 
+
+potential for usage to accelerate. At the macroeconomic level, changes in technology, including AI, 
+
+could, over time, profoundly affect the nature of the financial services consumed and may result in 
+
+                                                      
+1 McWaters, J (2018) 
+ 
+
+ 
+All speeches are available online at www.bankofengland.co.uk/publications/Pages/speeches/default.aspx 
+
+2 
+
+ 
+
+2
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+changes to the structure of the financial services industry. This set of issues is being explored at the 
+
+Bank of England by Huw Van Steenis in his review of the future of the financial system. What matters to 
+
+us as prudential supervisors is the extent to which the development of advanced analytics changes the 
+
+risks to the safety and soundness of the firms we supervise.  
+
+Increasing levels of automation, machine learning and AI could improve the safety and soundness of 
+
+firms in some ways. For example, until recently, most firms were using a rules-based approach to  
+
+anti-money laundering monitoring. But this is changing and firms are introducing ML software that 
+
+produces more accurate results, more efficiently2, by bringing together customer data with publicly 
+
+available information on customers from the internet to detect anomalous flows of funds.3  
+
+ML may also improve the quality of credit risk assessments, particularly for high-volume retail lending, for 
+
+which plenty of data are available and can be used for training machine learning models. Recent 
+
+research, for example, analysed more than 120 million mortgages in the US written between 1995 and 
+
+2014 and identified significant non-linear relationships between risk factors and mortgages becoming  
+
+non-performing. These ‘jumps’ in the chance that a loan defaults – sometimes with just a small change in 
+
+circumstances – are precisely the kind of non-linear relationships for which machine learning models are 
+
+well suited.4 
+
+ML is also starting to influence how wholesale loans are arranged. In contrast to retail lending, the 
+
+idiosyncratic risks and limited data available for corporate lending make typical automated underwriting 
+
+more difficult. But ML can still be used to improve the quality of underwriting by making use of  
+
+non-traditional data. For example, natural language processing of annual reports and social media can 
+
+give firms useful information on the quality of the credit.5   
+
+But the increased use of ML and AI may also increase some risks to the safety and soundness of firms. 
+
+Implementing ML and AI at scale is likely to require considerable investments by firms in their data and 
+
+technology capabilities. While in the long-run these investments could increase revenue, in the  
+
+short-term they are likely to increase costs. They will also amplify execution and operational risks. And 
+
+even if firms eventually are successful in embedding new tools and techniques, these may make their 
+
+businesses more complex and difficult to manage. For example, while ML models could alter banks’ 
+
+trading and retail businesses – enabling them to make better decisions more quickly – the opacity, 
+
+however, of these models may also make them more difficult for humans to understand. Boards, senior 
+
+management and staff in firms may consequently need different skills to operate an effective oversight, 
+
+risk and control environment. 
+
+                                                      
+2 Breslow, S., Hagstroem, M., Mikkelsen, D., Robu, K (2017) 
+3 Arnold, M (2018) 
+4 Sirignano, J., Sadwhani, A., and Giesecke, K (2018) 
+5 Institute of International Finance (2018)  
+ 
+
+ 
+All speeches are available online at www.bankofengland.co.uk/publications/Pages/speeches/default.aspx 
+
+3 
+
+ 
+
+3
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+III. 
+
+Changing the methods by which we supervise 
+
+Advanced analytics are also likely over time to lead to changes to the way we do our jobs as 
+
+supervisors. To see how, it is perhaps easiest to go back to the basics of what prudential supervision 
+
+ 
+
+actually is. 
+
+Our approach to promoting safety and soundness is based upon forward-looking judgement-based 
+
+supervision, in which we identify the key risks facing firms and set supervisory strategies to mitigate 
+
+them. Described as a business process, it can be broken down into a number of simple steps:  
+
+1) rule-setting and reporting; 2) analysis and monitoring; and 3) setting and communicating a supervisory 
+
+strategy to mitigate identified risks. Each of these aspects of supervision is amenable to automation, 
+
+machine learning or AI to some extent. 
+
+With respect to rule setting, for example, a project is underway to use advanced analytics to understand 
+
+the complexity of the PRA rulebook.6 We hope to use the results to identify ways to simplify our rules to 
+
+make them easier to comply with. 
+
+The PRA Rulebook contains 638,000 words –77,000 words longer than War and Peace in English 
+
+translation. The complexity of the language used can make the text difficult to read. Another layer of 
+
+complexity is added because of cross-references and links between different parts of the Rulebook, 
+
+requiring the reader to refer backwards and forwards, disrupting reader flow.  
+
+Figure 2 is a visualisation of the Rulebook. Each node is a part the PRA Rulebook. Each line between 
+
+the nodes is a cross-reference in the text. When parts of the rulebook are linked together, tweaking one 
+
+part can have unintended consequences for others. We can quantify the interconnectedness of different 
+
+parts of the rulebook using the PageRank algorithm, the same algorithm used by Google’s search 
+
+engine. A higher score implies greater connectivity of a particular part to other parts. Happily, most parts 
+
+of the rulebook are self-contained and ‘structurally simple’. Looking further into the future, a bigger win 
+
+might be to automate the rulebook entirely.  
+
+Regulated banks are required to submit large quantities of data to regulators. The cost of collecting and 
+
+reporting data to meet regulatory requirements is a significant burden to both regulators and regulated 
+
+firms.  Regulatory data collections also have significant time lags, normally 4 to 6 weeks. 
+
+One solution is to make the data reporting process better tailored to the needs of supervisors. Digital 
+
+regulatory reporting (DRR) is the automation of regulatory data collection, and could potentially lead to 
+
+significant improvements in both the cost and timeliness of data. The idea is based on machine readable 
+
+                                                      
+6 Amadxarif, Z, Brookes, J., Garbarino, N., Patel, R., and Walczak, E (n.d) [forthcoming] 
+ 
+
+ 
+All speeches are available online at www.bankofengland.co.uk/publications/Pages/speeches/default.aspx 
+
+4 
+
+ 
+
+4
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+reporting requirements that firms’ systems could automatically interpret and satisfy via a secure 
+
+regulator-firm digital link. This would allow regulators to collect data on an ad hoc basis from firms as 
+
+required, in close to real time without any manual intervention at either end. That would enable 
+
+supervisors to specify the data they needed to solve a particular puzzle – exposures to a particular 
+
+country, for example – and transmit that data request to firms in a machine readable form. The data 
+
+would then be ‘grabbed’ directly from firms’ systems and sent back to supervisors automatically. The 
+
+FCA and Bank of England are currently undertaking a DRR pilot with participants from a number of 
+
+regulated firms. It is too early to say what the outcome of this early pilot will be, but initial findings 
+
+suggest it is feasible. There remain significant technical challenges to be overcome. And regulators 
+
+would need to guard against the moral hazard that could arise if firms perceived that responsibility for the 
+
+accuracy and congruence of data had transferred from regulated entities to regulators. 
+
+Setting regulatory standards and collecting data is only the start of the supervisory process. Working out 
+
+what the data mean is a second stage. Recent research has demonstrated how machines can now 
+
+outperform doctors in the diagnosis of certain forms of skin cancer: machines can be taught to recognise 
+
+cell clusters more accurately than the human eye can. This does not, however, imply there is no role for 
+
+doctors in the treatment of cancers; quite the opposite. By using technology to perform certain roles, 
+
+doctors can free up time to focus on cancer treatment and patient care7. This is an example of what is 
+
+sometimes referred to as human-centred automation “… which considers where humans can often do 
+
+tasks or make better judgements than machines, and designs automation around these strengths”8. 
+
+In a similar way, by introducing ML to perform complex tasks, we ought to be able to free up and focus 
+
+supervisors’ time where it is most needed.  
+
+Take the case of credit unions. Of the 570 or so U.K. domiciled credit institutions, about 450 are credit 
+
+unions. These are very small and simple providers of credit facilities that between them account for 
+
+0.07% of the assets of the UK deposit taking sector. Because none of these lenders is sufficiently 
+
+significant to the stability of the financial system as a whole, we supervise these entities in a 
+
+proportionate manner. That is to say, we only intervene intensively in the event of likely failure, to ensure 
+
+that insolvency is orderly and that depositors are paid out promptly. 
+
+Recent work at the Bank investigated the predictive power of the regulatory returns for these firms.9 It 
+
+found a significant and stable correlation between simple explanatory variables and the probability of 
+
+default one, two and three years later. In most banking data sets, this structural relationship is obscured 
+
+by the intervening hand of supervision - leaving few if any observable banking failures.   
+
+ 
+
+ 
+
+ 
+
+ 
+
+                                                      
+7 I am grateful to Hermann Hauser for first bringing this argument to my attention. 
+8 Professor Peter Gahan, University of Melbourne 
+9 Coen, J., Francis, W B., Rostom, M (2017) 
+ 
+
+ 
+All speeches are available online at www.bankofengland.co.uk/publications/Pages/speeches/default.aspx 
+
+5 
+
+ 
+
+5
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+The research has the practical application for focusing our scarce supervisory resources in a systematic 
+
+and efficient way on those credit unions where they are most likely to be needed. The tool cannot yet be 
+
+classified as ML, as there is no learning involved. But it does demonstrate how more advanced analytics 
+
+can be used to enhance effectiveness of supervision, and we are beginning to experiment with 
+
+introducing genuine ML into this tool.  
+
+The task that lies at the heart of supervision – the third step I referred to above – is setting strategies to 
+
+reduce prudential risks. For each firm that the PRA deems sufficiently critical, we form an assessment of 
+
+the key risks to its safety and soundness. From that, we articulate a strategy of actions by the bank to 
+
+mitigate the likelihood and the consequence of those risks. The nature and intensity of the supervisory 
+
+strategy for a firm – and the resources we allocate – are proportional to the scale of the risks to its safety 
+
+and soundness, and to the threat the firm poses to the wider economy. We then monitor progress 
+
+against the delivery of the strategy, as well as the underlying risks themselves. 
+
+This approach relies on judgement – about where the key risks lie, the supervisory strategy required to 
+
+mitigate those risks, and how to respond to risks crystallising. It is a matter of debate how far and how 
+
+fast AI will be able to move in the direction of making complex judgements. It seems to me to be highly 
+
+unlikely in the foreseeable future. Perhaps the main contribution it will make is to improve the efficiency 
+
+and productiveness of strategy-setting. A typical problem faced by supervisors, for example, is the 
+
+‘needle-in-a-haystack’ problem: if something is going wrong in a firm, it can be necessary to find out who 
+
+in the firm made relevant decisions, based on what information, and why the checks and balances of the 
+
+firm – the board, and second and third lines of defence – did not work. 
+
+Advanced analytics can assist.  The information to investigate would likely come in many forms – 
+
+spreadsheets, regulatory returns, management information, e-mails, meeting agendas and minutes. And 
+
+the information sources may evolve – firms’ definitions of products, business lines, risks, committees and 
+
+so on do not stay the same. So – along the same lines pursued by law firms for example – one big win is 
+
+the ability to produce structured data from a range of sources, the analysis of which traditionally required 
+
+significant manual effort. Over time it may be possible, for example, to train tools to recognise business 
+
+lines via their numerical characteristics and patterns, and their unstructured data alongside structured 
+
+regulatory returns. ML also allows documents with similar characteristics to be classified together and 
+
+analysed, either within or across banks. For example, it could be used to follow the escalation trail from 
+
+the most junior to the most senior committees. This sort of work is labour intensive when performed by 
+
+humans: aided by machines, supervisors could in future devote time to those areas where humans have 
+
+a comparative advantage. 
+
+Setting a supervisory strategy without effective communication is pointless, as we rely on the firms to 
+
+take actions to mitigate the risks. To achieve complex supervisory outcomes – which often require 
+
+significant, multi-year remediation by firms – boards and senior management of firms have to understand 
+
+ 
+All speeches are available online at www.bankofengland.co.uk/publications/Pages/speeches/default.aspx 
+
+6 
+
+ 
+
+6
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+the context and rationale for what we are trying to achieve, as well as what we would deem to be a 
+
+successful outcome. So getting our communications right is key. But how clear are those 
+
+communications?  
+
+Firms have developed a wide range of more-or-less polite methods for providing us with feedback on the 
+
+letters we write to them. But letter writing is an art rather than a science, and evaluating objectively how 
+
+clear we are does not lend itself easily to traditional forms of quantitative methods. Advances in ML, 
+
+however, are helping. We recently analysed the letters we write to firms on the key risks they face and 
+
+our supervisory strategy. We quantified a number of qualitative features of these letters, for example, 
+
+how blunt we are in our messaging, how personal we are in terms of to whom we address the letter, and 
+
+the overall sentiment expressed by the letter. We then used an ML model called random forests to detect 
+
+whether, for example, the PRA writes to firms differently than the prior regulator, the FSA. (We do.)10  On 
+
+the back of that project, we have built an app that now enables supervisors to analyse their written 
+
+communications. Supervisors can use the app to analyse any of their draft documents before they are 
+
+sent to firms. 
+
+IV. 
+
+Conclusion 
+
+Advanced analytics, machine learning and AI seem to be everywhere now – from image and voice 
+
+recognition software to driverless cars and health care. Banks too are also seeking to apply these tools 
+
+and techniques to the range of their activities, many of which used to be seen as the preserve of  
+
+experts: from risk assessment, to financial crime prevention and trading in the financial markets. These 
+
+trends are likely to accelerate. 
+
+Banking supervisors need to adapt to technology too. Supervisors need to stay abreast of how 
+
+technology is changing the risks the banks are running and how they are being controlled. And just as 
+
+advanced analytics are opening an ever wider range of banks’ activities to automation, so too are they 
+
+creating new possibilities for us to supervise banks more efficiently and effectively. But until machines 
+
+can fully replicate human cognition – a remote possibility for the foreseeable future – supervisory 
+
+judgment will still have a central role to play. My central expectation is that over coming years the PRA 
+
+will develop a form of ‘cyborg supervision’ involving humans and machines working ever more closely 
+
+together and leveraging their comparative strengths.  
+
+                                                      
+10 Bholat, D., Brookes, J., Cai, C., Grundy, K., and Lund, J (2017)  
+ 
+
+ 
+All speeches are available online at www.bankofengland.co.uk/publications/Pages/speeches/default.aspx 
+
+7 
+
+ 
+
+7
+
+ 
+ 
+Figures 
+
+Figure 1: The quantity and cost of data 
+
+Source: Financial Stability Board (2017)  
+
+Figure 2: Textual complexity of the PRA rulebook 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+Source: Amadxarif et al. (n.d.)  
+
+ 
+
+ 
+
+ 
+All speeches are available online at www.bankofengland.co.uk/publications/Pages/speeches/default.aspx 
+
+8 
+
+ 
+
+8
+
+ 
+ 
+References 
+
+prudential regulation. 
+
+Amadxarif, Z., Brookes, J., Garbarino, N., Patel, R., and Walczak, E (n.d) Textual complexity in UK 
+
+Arnold, M (2018), HSBC brings in AI to help spot money laundering, FT available here:  
+
+https://www.ft.com/content/b9d7daa6-3983-11e8-8b98-2f31af407cc8 
+
+Bholat, D., Brookes, J., Cai, C., Grundy, K., and Lund, J (2017), Sending firm messages: text mining 
+
+letters from PRA supervisors to banks and building societies they regulate. Bank of England Staff Working 
+
+Paper 688, available here: 
+
+https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2017/sending-firm-messages-text-mining-
+
+letters-from-pra-supervisors-to-banks-and-building-societies 
+
+Breslow, S., Hagstroem, M., Mikkelsen, D., Robu, K (2017), The New Frontier in anti-money laundering, 
+
+available here: 
+
+https://www.mckinsey.com/business-functions/risk/our-insights/the-new-frontier-in-anti-money-laundering 
+
+Coen, J., Francis, W B., Rostom, M (2017), The determinants of credit union failure in the United Kingdom: 
+
+how important are the macroeconomic factors? Bank of England Staff Working Paper 658, available here: 
+
+https://www.bankofengland.co.uk/working-paper/2017/the-determinants-of-uk-credit-union-failure 
+
+Financial Stability Board (2017), Artificial intelligence and machine learning in financial services, available 
+
+here: http://www.fsb.org/wp-content/uploads/P011117.pdf 
+
+Institute of International Finance (2018), Machine learning in credit risk, available here: 
+
+https://www.iif.com/file/24725/download?token=FFv8Lhl1 
+
+McWaters, J (2018), The New Physics of Financial Services, available here: 
+
+http://www3.weforum.org/docs/WEF_New_Physics_of_Financial_Services.pdf 
+
+Sirignano, J., Sadwhani, A., and Giesecke, K (2018), Deep learning for mortgage risk, available here: 
+
+https://arxiv.org/abs/1607.02470 
+
+ 
+All speeches are available online at www.bankofengland.co.uk/publications/Pages/speeches/default.aspx 
+
+9 
+
+ 
+
+9
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+"
+1,managing-machines-the-governance-of-artificial-intelligence-speech-by-james-proudman.txt," 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+Managing Machines: the governance of artificial intelligence  
+ 
+ 
+
+Speech given by 
+
+James Proudman, Executive Director of UK Deposit Takers Supervision  
+
+FCA Conference on Governance in Banking 
+
+4 June 2019 
+
+I  am  very  grateful  to  Philip  Sellar  for  preparing  these  remarks,  and  to  Sadia  Arif,  Jamie  Barber,  Jas  Ellis, 
+Magnus Falk, Orlando Fernandez Ruiz, Anna Jernova, Carsten Jung, Tom Mutton, Lyndon Nelson, Jennifer 
+Nemeth and Oliver Thew for very helpful advice and comments. 
+
+ 
+All speeches are available online at www.bankofengland.co.uk/publications/Pages/speeches/default.aspx 
+
+1 
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+Introduction 
+
+Consider the well-known story of one Big Tech company’s attempt to use artificial intelligence to improve the 
+
+efficiency of its staff recruitment. The machine learning system reviewed job applicants’ CVs with the aim of 
+
+automating the search for top talent. The company’s experimental hiring tool used artificial intelligence to 
+
+give job candidates scores ranging from one to five stars. Within a year, the company realised its new 
+
+system was not rating candidates for software developer jobs and other technical posts in a gender-neutral 
+
+way. That is because the computer models were trained to vet applicants by observing patterns in CVs 
+
+submitted to the company over a 10-year period. Most came from men, a reflection of male dominance 
+
+across the technology industry. In effect, the company’s system taught itself that male candidates were 
+
+preferable. It penalised CVs that included the word “women’s” as in “women’s chess club captain”. And it 
+
+downgraded graduates of two all-women’s colleges. 
+
+The story is a clear example of how artificial intelligence can produce bad outcomes for all concerned. It also 
+
+offers a case study for exploring the root causes that lead to bad outcomes - and so in turn offers insights for 
+
+boards on how to govern the introduction of artificial intelligence. The art of managing technology is an 
+
+increasingly important strategic issue facing boards, financial services companies included. And since it is a 
+
+mantra amongst banking regulators that governance failings are the root cause of almost all prudential 
+
+failures, this is also a topic of increased concern to prudential regulators.  
+
+In my comments, I will provide a quick overview of the scale of introduction of artificial intelligence in UK 
+
+financial services; then make three observations about it, and suggest three principles for governance 
+
+derived from them.  
+
+Artificial Intelligence 
+
+Technological innovation is inevitable and welcome. As the Governor noted during this year’s  
+
+UK Fintech Week,1 we are shifting towards a new economy, which is powered by big data, advanced 
+
+analytics, smartphone technology and more distributed peer-to-peer connections. This new economy will go 
+
+hand in hand with fundamental changes to the structure and nature of the financial system supporting it. 
+
+Indeed some of the largest international investment banks are now declaring that they are technology 
+
+companies with banking licences.  
+
+Some of the most important recent developments in technology are associated with the introduction of 
+
+automation – by which I mean the replacement of humans by machines for conducting repetitive tasks. 
+
+Within the broad concept of automation, two areas pose unique challenges for governance. These are 
+
+artificial intelligence (AI) – by which I mean the use of a machine to perform tasks normally requiring human 
+
+intelligence – and by machine learning (ML) – by which I mean the subset of AI where a machine teaches 
+
+                                                      
+1 Carney, M., (2019) ‘A Platform for Innovation’  
+ 
+
+ 
+All speeches are available online at www.bankofengland.co.uk/publications/Pages/speeches/default.aspx 
+
+2 
+
+ 
+2 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+itself to perform tasks without being explicitly programmed. The focus of my remarks is therefore on AI and 
+
+ML, but the principles I discuss could be applied to automation more broadly. 
+
+It is certainly not the role of the regulator to stand in the way of progress. Indeed, AI/ML in financial services 
+
+could herald an era of leaner, faster and more tailored operations, reducing costs and ultimately improving 
+
+outcomes for customers. It could also help to make financial services more bespoke, accessible and 
+
+inclusive. In capital markets, there is some evidence from market participants to suggest that automation is 
+
+leading to increased effectiveness. According to the IMF, two thirds of cash equities trading by volume is now 
+
+associated with automated trading, about half of FX spot trading.2 And the Governor recently explained how 
+
+AI provides the opportunity to reduce bias.3 On balance, it is probable that increased automation will 
+
+enhance net resilience of institutions, and support the PRA’s statutory objectives. 
+
+For example, AI and ML are helping firms in anti-money laundering (AML) and fraud detection. Until recently, 
+
+most firms were using a rules-based approach to AML monitoring. But this is changing and firms are 
+
+introducing ML software that produces more accurate results, more efficiently, by bringing together customer 
+
+data with publicly available information on customers from the internet to detect anomalous flows of funds. 
+
+About two thirds of banks and insurers are either already using AI in this process or actively experimenting 
+
+with it, according to a 2018 IIF survey.4 These firms are discovering more cases while reducing the number 
+
+of false alerts. This is crucial in an area where rates of so-called “false-positives” of 85 per cent or higher are 
+
+common across the industry.  
+
+ML may also improve the quality of credit risk assessments, particularly for high-volume retail lending, for 
+
+which an increasing volume and variety of data are available and can be used for training machine learning 
+
+models.  
+
+But it is a prudential regulator’s job to be gloomy and to focus on the risks. We need to understand how the 
+
+application of AI and ML within financial services is evolving, and how that affects the risks to firms’ safety 
+
+and soundness. And in turn, we need to understand how those risks can best be mitigated through banks’ 
+
+internal governance, and through systems and controls. 
+
+Firms’ rates of adoption of AI and ML 
+
+So what do we know about how – and how fast – the application of AI and ML is evolving within UK financial 
+
+services? In 2018, an FT survey of banks around the world provided evidence of a cautious approach being 
+
+taken by firms.5 And according to a McKinsey survey of financial and non-financial firms, most barriers to the 
+
+more rapid adoption of AI were internal to the firms themselves: poor data accessibility; lack of suitable 
+
+                                                      
+2 IMF (2019) ‘Global Financial Stability Report April 2019’  
+3 Carney, M., (2019) ‘AI and the Global Economy’  
+4 IIF (2018) ‘Machine Learning in Anti-Money Laundering’  
+5  FT (2018)  ‘AI in banking reality behind the hype’  
+ 
+
+ 
+All speeches are available online at www.bankofengland.co.uk/publications/Pages/speeches/default.aspx 
+
+3 
+
+ 
+3 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+technology infrastructure; and a lack of trust in the insights of AI, for example.6 Despite the plethora of 
+
+anecdotal evidence on the adoption of AI/ML, there is little structured evidence about UK financial services.  
+
+To gather more evidence, the Bank of England and the FCA sent a survey in March to more than 200 firms, 
+
+including the most significant banks, building societies, insurance companies and financial market 
+
+infrastructure firms in the UK. This is the first systematic survey of AI/ML adoption in financial services. 
+
+The survey is focused on building our understanding of key themes. First, the extent to which firms have 
+
+adopted, or are intending to adopt, AI/ML within their businesses and what they regard as the most 
+
+promising use cases. Second, the extent to which firms have clearly articulated strategies towards the 
+
+adoption of AI/ML. Third, the extent of barriers - regulatory or otherwise - to adoption and what techniques 
+
+and tools can enable safe use of this technology. Fourth, an assessment of firms’ perceptions of the risks, to 
+
+both their own safety and soundness as well as to their conduct towards customers and clients, arising from 
+
+AI/ML. And fifth, the extent to which the appreciation of these risks has given rise to changes in risk 
+
+management, governance and compliance frameworks. 
+
+The full results of the survey will be published by the Bank and FCA in Q3 2019, and are likely to prove 
+
+insightful. Responses were returned to the Bank in late April, so some early indicative results are emerging.  
+
+Overall, the mood around AI implementation amongst firms regulated by the Bank of England is strategic but 
+
+cautious. Four fifths of the firms surveyed returned a response; many reported that they are currently in the 
+
+process of building the infrastructure necessary for larger scale AI deployment, and 80 per cent reported 
+
+using ML applications in some form. The median firm reported deploying six distinct such applications 
+
+currently, and expected three further applications to go live over the next year, with ten more over the 
+
+following three years.  
+
+Consistent with the McKinsey survey, barriers to AI deployment currently seem to be mostly internal to firms, 
+
+rather than stemming from regulation. Some of the main reasons include: (i) legacy systems and unsuitable 
+
+IT infrastructure; (ii) lack of access to sufficient data; and (iii) challenges integrating ML into existing business 
+
+processes.  
+
+specific solutions.  
+
+Large established firms seem to be most advanced in deployment. There is some reliance on external 
+
+providers at various levels, ranging from providing infrastructure, the programming environment, up to 
+
+Approaches to testing and explaining AI are being developed and, perhaps unsurprisingly, there is some 
+
+heterogeneity in techniques and tools. Firms said that ML applications are embedded in their existing risk 
+
+                                                      
+6  McKinsey (2018) ‘Adoption of AI advances, but foundational barriers remain’ 
+ 
+
+ 
+All speeches are available online at www.bankofengland.co.uk/publications/Pages/speeches/default.aspx 
+
+4 
+
+ 
+4 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+frameworks. But many say that new approaches to model validation (which include AI explainability 
+
+techniques) are needed in the future.  
+
+Of the firms regulated by the Bank of England that responded to the survey, 57 per cent reported that they 
+
+are using AI applications in risk management and compliance areas, including anti-fraud and anti-money 
+
+laundering applications.  In customer engagement, 39 per cent of firms are using AI applications, 25 per cent 
+
+in sales and trading, 23 per cent in investment banking, and 20 per cent in non-life insurance.   
+
+By and large, firms reported that, properly used, AI and ML would lower risks - most notably, for example, in 
+
+anti-money laundering, KYC and retail credit risk assessment. But some firms acknowledged that, incorrectly 
+
+used, AI and ML techniques could give rise to new, complex risk types - and that could imply new challenges 
+
+for boards and management.  
+
+Challenges of AI and ML for boards 
+
+Let me suggest that there are three challenges for boards and management.  
+
+The first challenge is posed by data. As any statistician knows, the output of a model is only as good as the 
+
+quality of data fed into it – the so-called “rubbish in, rubbish out” problem. Of course, there are various 
+
+techniques for dealing with this problem, but fundamentally, if there are problems with the data used – be 
+
+they incomplete, inaccurate or mislabelled – there will almost certainly be problems with the outcomes of the 
+
+model. AI/ML is underpinned by the huge expansion in the availability and sources of data: as the amount of 
+
+data used grows, so the scale of managing this problem will increase. 
+
+Further, there are complex ethical, legal, conduct and reputational issues associated with the use of personal 
+
+data. For example, are data being used unfairly to exclude individuals or groups, or to promote unjustifiably 
+
+privileged access for others? Recent examples amongst retailers suggest that overly-personalised marketing 
+
+can seem plain ‘creepy’. These questions require complex answers that are beyond my philosophical  
+
+pay-grade. From a regulatory perspective, they are perhaps more directly a primary concern to the FCA 
+
+given its statutory objectives of consumer protection, but are also potentially relevant to safety and 
+
+soundness, not least through their impact on reputation and, in turn, confidence.  
+
+The data challenge is not limited simply to its selection and processing – but also to its analysis, and how 
+
+inferences are drawn. AI/ML is driven by what seems to be objective historical data – but that itself may 
+
+reflect longstanding and pervasive bias, as the example I used in the introduction showed. So there is a 
+
+need to understand carefully the assumptions built into underlying algorithms, and how they will behave in 
+
+different circumstances, including by amplifying potential and/or unintended human prejudice. This implies 
+
+the need for a strong focus on understanding and explaining the outcomes generated by AI/ML. In my 
+
+introductory example, the hidden flaws were only revealed over time by the outcomes. The focus of 
+
+ 
+All speeches are available online at www.bankofengland.co.uk/publications/Pages/speeches/default.aspx 
+
+5 
+
+ 
+5 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+governance, therefore, should not only be on the role of testing in the design stage, before AI/ML is 
+
+approved for use, but also on testing during the deployment stage, as well as the oversight needed to 
+
+evaluate outcomes and address issues when they go wrong. This includes in certain cases the ability for a 
+
+human or other override – the so-called ‘human in the loop’, for example – and to provide feedback to 
+
+minimise gradually the risk of adverse unintended consequences. 
+
+The second challenge posed to boards by AI/ML concerns the role of people – in particular, the role played 
+
+by incentives. This may seem somewhat paradoxical, because the role of AI is often thought of as 
+
+automating tasks formerly done by people. 
+
+Machines do not have human characteristics. But they do what they are told by humans. Humans design and 
+
+control machines, and the algorithms that let those machines learn, whether that is automating the 
+
+recruitment process or providing financial advice. As with any member of staff, coders, programmers and 
+
+managers can be subject to the myriad of human biases, and the outputs of machines may likely reflect 
+
+those biases. It follows that the regulatory reforms over recent years were developed to overcome the very 
+
+‘human’ problems embodied in people-centric workplaces – be they cultural failings and lack of diversity of 
+
+thought; poorly aligned incentives, responsibilities and remuneration; or short-termism and other biases – 
+
+remain equally relevant to an AI/ML-centric workplace. 
+
+In fact, it may even become harder and take longer to identify root causes of problems, and hence attribute 
+
+accountability to individuals. For example, how would you know which issues are a function of poor design – 
+
+the manufacturer’s fault if you have bought an ‘off the shelf’ technology product – or poor implementation –
+
+which could demonstrate incompetence or a lack of clear understanding from the firm’s management. In the 
+
+context of decisions made by machines which themselves learn and change over time, how do you define 
+
+what it means for the humans in the firm to act with “reasonable steps” and “due skill, care and diligence”? In 
+
+a more automated, fast-moving world of AI/ML, boards – not just regulators – will need to consider and be on 
+
+top of these issues. Firms will need to consider how to allocate individual responsibilities, including under the 
+
+Senior Managers Regime.  
+
+Machines lack morals. If I tell you to shoplift, then I am committing an unethical act - and so are you, if you 
+
+follow my instruction. “I was only following orders” is not a legitimate defence. There is, if you like, a  
+
+double-lock on unethical instructions within a wholly human environment - on the part of the instructor and 
+
+the instructed. This is one reason why firms and regulators are so determined to promote ‘good’ cultures, 
+
+including, for example, ‘speak up’ cultures, and robust whistle-blowing. But there is no such double-lock for 
+
+AI/ML. You cannot tell a machine to “do the right thing” without somehow first telling it what “right” is - nor 
+
+can a machine be a whistle-blower of its own learning algorithm. In a world of machines, the burden of 
+
+correct corporate and ethical behaviour is shifted further in the direction of the board, but also potentially 
+
+further towards more junior, technical staff. In the round this could mean less weight being placed on the 
+
+judgements of front-office middle management. 
+
+ 
+All speeches are available online at www.bankofengland.co.uk/publications/Pages/speeches/default.aspx 
+
+6 
+
+ 
+6 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+There have been some initial steps to promote the ethical use of big data and AI/ML in financial services. 
+
+Notably, for example, in Singapore,7 and – more broadly – within the EU.8 In the UK, the Centre for Data 
+
+Ethics and Innovation is looking at maximising the benefits of AI,9 and many consider them leaders in this 
+
+field.  Principles-based expectations have focused on areas such as fairness, ethics, accountability and 
+
+transparency. Nevertheless, promoting the right outcomes, even if framed as principle-based expectations, 
+
+will require appropriate, up-to-date systems and controls across the three lines of defence to ensure an 
+
+appropriate control environment throughout the firm. Further thought is needed.  
+
+The third challenge posed by greater use of AI/ML to boards is around change. As the rate of introduction of 
+
+AI/ML in financial services looks set to increase, so too does the extent of execution risk that boards will 
+
+need to oversee and mitigate. 
+
+It appears to supervisors, and consistent with the early results from the Bank of England/FCA survey, that 
+
+some firms are approaching the introduction of AI/ML piecemeal, project by project; others appear to be 
+
+following a more integrated, strategic approach. Either way, the transition to greater AI/ML-centric ways of 
+
+working is a significant undertaking with major risks and costs arising from changes in processes, systems, 
+
+technology, data handling/management, third-party outsourcing and skills. The transition also creates 
+
+demand for new skill sets on boards and in senior management, and changes in control functions and risk 
+
+structures. 
+
+Transition may also create complex interdependencies between the parts of firms that are often thought of, 
+
+and treated as, largely separate. As the use of technology changes, the impact on staff roles, skills and 
+
+evaluation may be equally profound. Many of these interdependencies can only be brought together at, or 
+
+near, the top of the organisation. 
+
+Conclusion 
+
+observations I had made.  
+
+I noted at the beginning that I would conclude by trying to extract three principles for governance from the 
+
+First, the observation that the introduction of AI/ML poses significant challenges around the proper use of 
+
+data, suggests that boards should attach priority to the governance of data – what data should be used; how 
+
+should it be modelled and tested; and whether the outcomes derived from the data are correct.  
+
+Second, the observation that the introduction of AI/ML does not eliminate the role of human incentives in 
+
+delivering good or bad outcomes, but transforms them, implies that boards should continue to focus on the 
+
+oversight of human incentives and accountabilities within AI/ML-centric systems. 
+
+                                                      
+7Monetary Authority of Singapore (2019) ‘Principles to Promote Fairness, Ethics, Accountability and Transparency (FEAT) in the Use of 
+Artificial Intelligence and Data Analytics in Singapore’s Financial Sector’  
+8 European Commission (2019) ‘Ethics Guidelines for Trustworthy AI’ 
+9Centre for Data Ethics and Innovation (2019) ‘Introduction to the Centre for Data Ethics and Innovation’  
+ 
+
+ 
+All speeches are available online at www.bankofengland.co.uk/publications/Pages/speeches/default.aspx 
+
+7 
+
+ 
+7 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+And third, the acceleration in the rate of introduction of AI/ML will create increased execution risks during the 
+
+transition that need to be overseen. Boards should reflect on the range of skill sets and controls that are 
+
+required to mitigate these risks both at senior level and throughout the organisation. 
+
+ 
+All speeches are available online at www.bankofengland.co.uk/publications/Pages/speeches/default.aspx 
+
+8 
+
+ 
+8 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+"
+2,supervisor-centred-automation-the-role-of-human-centred-automation-speech-by-james-proudman.txt," 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Supervisor-centred automation – the role of human-centred automation in judgement-centred 
+
+prudential supervision 
+
+Speech given by 
+
+James Proudman, PRA Senior Advisor 
+
+26 March 2020 
+
+ 
+
+To have been given at a conference on the ‘Impact of AI and Machine Learning on the UK economy’, 
+
+organised by the Bank of England, CEPR and Imperial College 
+
+I am very grateful to Sadia Arif, Melanie Beaman, Sholthana Begum, David Bholat, Chris Faint,  
+Shoib Khan, Clair Mills, Lyndon Nelson, Gareth Ramsay, Alison Scott and Phil Sellar for constructive 
+comments and discussions. 
+ 
+ 
+
+ 
+All speeches are available online at www.bankofengland.co.uk/news/speeches 
+
+1 
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+INTRODUCTION 
+
+It’s March 2030.  The phone rings1. It is the PRA CEO’s office.  “How worried should we be about 
+
+BigBank and SmallBank’s vulnerability to the widget market?” “Give me an hour” you say… 
+
+Accessing the shared data repository from your laptop, you extract BigBank’s and SmallBank’s current 
+
+credit and derivative exposures to the widget market, and double-check there are no other regulated 
+
+entities with exposures as large.  You then estimate the impacts of a 20% fall in widget prices on last 
+
+night’s current and projected capital ratios for the two banks, and then – with an eye to informing  
+
+macro-prudential effects - for the system as a whole.  You calculate indirect exposures by estimating the 
+
+effect a 20% fall in widget prices will have on BigBank’s and SmallBank’s counterparties. To complement 
+
+your quantitative analysis, you analyse various textual sources - including recent internal analysis, 
+
+investor assessment and social media commentary on BigBank’s and SmallBank’s widget-lending 
+
+business, and compare it with relevant past episodes. Thinking worst case, you then retrieve data on the 
+
+banks’ stock of liquid assets last night: you then simulate what could happen to liquidity positions under 
+
+different assumptions – derived in part from historic events and in part from AI learning from those same 
+
+events - about social media reactions, operational resilience and equity prices. You decide to cross 
+
+check your own thinking against that of BigBank’s and Small Bank’s boards, and extract from the board 
+
+minutes the bank’s own evaluations and their precautionary steps. 
+
+An hour later, you call back, “No need to worry, and here’s why…”   
+
+If only things today were this easy but - as I know from my previous career as a prudential supervisor - 
+
+this is not how supervision currently works.  Prudential supervision is aimed at promoting the safety and 
+
+soundness of regulated financial firms by identifying the key risks those firms face, and implementing 
+
+strategies to mitigate them.  Much of what makes the job difficult and slow stems from problems 
+
+accessing, aggregating and analysing data versus regulatory standards, as well as finding and 
+
+processing the needle-like evidence from the giant haystack of firms’ management 
+
+information.  Supervisory data – and information more broadly - are only available with a lag; they are 
+
+hard to extract, and to compare; they are difficult to manipulate and harder to interpret. Supervision can 
+
+at times feel like detective work.  
+
+But the hard graft of supervision does not have to be as hard as it is today.  Advances in technology are 
+
+rapidly changing both the world around us, and our ability to analyse those changes – through the 
+
+application of increased computing power to mixed structured and unstructured data sets and text - 
+
+freeing up time for the forward-looking, judgement-based supervision, which is where the true value add 
+
+of supervision lies. 
+
+                                                      
+1 Or whatever device we are using by then. 
+ 
+
+ 
+All speeches are available online at www.bankofengland.co.uk/news/speeches 
+
+2 
+
+ 
+2 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+In these remarks, I look to develop some of the themes that I first explored in a speech a couple of years 
+
+ago about the possibilities offered by artificial intelligence2, and explore how far it might be reasonable to 
+
+expect technology to change the way prudential supervision is done over the next 5 to 10 years – 
+
+towards what one might label ‘supervisor-centred automation’. In particular, advances in technology 
+
+pose 3 practical questions about the way we do prudential regulation and supervision – centred around 
+
+supervisory access to timely and accurate regulatory data; the introduction of a machine-executable 
+
+rulebook; and the application of technology within prudential supervision itself. 
+
+ACCESS TO DATA 
+
+collected. 
+
+The first question is whether advances in technology can help improve regulatory data and the way it is 
+
+In the example I used in the introduction, my imaginary supervisor of the future was able to draw on  
+
+up-to-date data, specified to answer a precise question, at the click of a button. So, my first question is 
+
+aimed at exploring what are the constraints on accessing regulatory data in real – or near real – time, 
+
+and indeed at different levels of granularity, depending on the question at hand.  This question is 
+
+currently under active consideration at the Bank of England and PRA. 
+
+At the risk of over-simplification, the current process works something like as follows: firms extract 
+
+underlying ‘input’ data for a particular date (such as end quarter) from their core business servers;  
+
+they then combine and manipulate that input data to transform them into ‘regulatory’ data that meet 
+
+regulators’ definitions and standards; they then transpose that data into whatever electronic format is 
+
+needed to submit to the regulator.  Subject to meeting accuracy, governance and timeliness 
+
+requirements, the PRA leaves it broadly up to the firms themselves to work out how best to execute 
+
+these steps. 
+
+Significant advances in technology have transformed our ability to gather, store and analyse data in 
+
+multiple forms from multiple sources, be they structured or unstructured, more quickly and more cheaply.  
+
+So now is a good time for regulators to stand back, and ask whether – while holding the line on 
+
+prudential standards - we are collecting data in the most efficient and cost effective way, from the 
+
+perspective of both regulators and those we regulate.  And if we are not, how we should implement 
+
+change to advance our statutory objectives most effectively, both for us and those we regulate. As the 
+
+Governor explained at Mansion House last summer, in response to the Future of Finance report, “this is 
+
+the new frontier of regulatory efficiency and effectiveness. [We are] exploring how new technologies 
+
+                                                      
+2 “Cyborg supervision – the application of advanced analytics in prudential supervision” 19 November 2018 
+ 
+
+ 
+All speeches are available online at www.bankofengland.co.uk/news/speeches 
+
+3 
+
+ 
+3 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+could streamline firms’ compliance and regulatory processes while improving our ability to analyse 
+
+relevant data”3.  
+
+As a first step in the Bank of England’s strategy, we have published “Transforming data collection from 
+
+the UK financial sector”4. This is a ‘green’ discussion paper, in which are set out a range of options for 
+
+the future of regulatory data collection, and invite feedback from industry and others.  
+
+At this stage, the Bank of England and the PRA are agnostic about the end outcome – in the sense that 
+
+we do not have a strong view at this stage about which technology will best promote our objectives, 
+
+recognising that these differing objectives may impose certain trade-offs. For example, some technology 
+
+solutions may be more efficient, but come at greater fixed cost – potentially creating a trade-off between 
+
+our safety and soundness objective, and our secondary competition objective. There may also be  
+
+trade-offs between the different benefits on offer.  Some technology solutions may offer shorter 
+
+production times for regulatory data, but come at the expense of accuracy. There may also be broader 
+
+benefits that flow from greater standardisation at the operational level, reflecting data’s role as 
+
+public good. 
+
+How far should we move away from the existing architecture of standardised data requirements and 
+
+reporting towards more flexible solutions?  At the extreme, there is the “pull” model of data collection, 
+
+implicitly described in the example I used in the introduction to these remarks - in which regulators would 
+
+be able to pull data, at any level of granularity, directly from firms’ systems in real time, with no 
+
+intervention on the part of firms. 
+
+This revolutionary approach would eliminate altogether the need for regulatory data reporting by firms.  
+
+But it would come with other costs attached, both financial and otherwise, and the technological 
+
+obstacles to overcome remain significant.  It is not yet clear how it could be implemented in such a way 
+
+as to ensure responsibility for data accuracy and congruence remained where it currently lies – that is, 
+
+with regulated firms. It is not yet apparent, for example, whether the public benefits of real-time, or near 
+
+to real-time, data access for prudential supervisors would exceed the costs of delivering it. 
+
+To map out more clearly the costs and benefits of this and other approaches, the Bank/PRA wants active 
+
+industry-wide collaboration on the way ahead, with the intention of agreeing and communicating on a 
+
+collective approach to the reform of data collection over a 5-10 year horizon. 
+
+THE RULE BOOK 
+
+                                                      
+3 “New economy, new finance, new Bank”, speech by Mark Carney, 21 June 2018 
+4 Bank of England Discussion Paper, 7 January 2020 
+ 
+
+ 
+All speeches are available online at www.bankofengland.co.uk/news/speeches 
+
+4 
+
+ 
+4 
+
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+The second of my two questions is whether removing manual intervention in regulatory compliance and 
+
+reporting – through the application of machine executable rules – would speed up processes 
+
+underpinning prudential regulation, compliance and supervision.  At the PRA, we are currently working 
+
+on a proof of concept. 
+
+There is nothing in principle to stop a set of rules being transposed into a machine-executable code in a 
+
+way that could be read and processed by a robot.  But, there are two key challenges to be overcome: 
+
+one substantive and one practical.   
+
+The substantive challenge is whether the nuances of natural language can ever be satisfactorily 
+
+replicated in numeric code.  Principles-based regulation relies on the application of judgement; and 
+
+sometimes it is appropriate to write regulations in a way that requires the regulated to meet both the 
+
+spirit, as well as the letter, of the rules.  This is particularly the case in the financial services industry, 
+
+in which history shows that incentives can arise to restructure contracts in such a way as to circumvent 
+
+the letter of rules. 
+
+To date, our experimental approach at the PRA to the question of whether rules can be code-able has 
+
+been what might best be described as iterative.  That is to say, the approach is to begin with the most 
+
+black-and-white rule, or blocks of rules, and see how easy it is to code up in a way that satisfies policy 
+
+makers and supervisors; if it is, then proceed to the next most black-and-white rule, and see on, until you 
+
+find a point of nuance that cannot be coded in an acceptable way. That way, we should, in theory at 
+
+least, be able to work out how much – or how many blocks, if any - of the rule book is code-able.  
+
+The second – practical – challenge is how to introduce machine-executable rules in such a way as not to 
+
+affect adversely the PRA’s secondary competition objective – that is to say, not to provide an advantage 
+
+to larger firms that might have greater access to technology resources. Introducing machine-executable 
+
+rules amongst regulated firms in bite-sized chunks, for example, might make it more manageable for 
+
+smaller firms to digest.  For some smaller firms, it could even prove to be a competitive advantage. 
+
+To the extent that some or all of the rule book remains written in natural language, complying with it 
+
+could be made simpler and quicker for regulated firms by making what Sam Woods described at the 
+
+Mansion House last year as the “mighty forest of UK financial regulation” easier for a machine to read”5.  
+
+For example, by more consistently applying meta-data and tabs to not just the rule book, but also the 
+
+related library of supervisory expectations, it would become easier and quicker for a more or less 
+
+intelligent search engine to find and collect together all the relevant and related pieces of regulatory and 
+
+supervisory text. 
+
+                                                      
+5 “Credit union meets robot”, speech by Sam Woods, 24 October 2019 
+ 
+
+ 
+All speeches are available online at www.bankofengland.co.uk/news/speeches 
+
+5 
+
+ 
+5 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+SUPERVISOR-CENTRED AUTOMATION 
+
+The PRA’s prudential regime is based around the principle that judgement by supervisors is required to 
+
+assess key risks to the safety and soundness of the regulated firms, and to design, implement and 
+
+oversee strategies to mitigate those risks – as illustrated again by my introductory example.   
+
+And human-centred automation is sometimes used to refer to the situation in which humans can do 
+
+tasks or make judgements better than machines, and automation is designed around these strengths.  
+
+The third question I would like to raise, therefore, is how best to introduce – or at least move closer to - 
+
+human-centred automation into a judgement-centred prudential regime. 
+
+There are plenty of opportunities for the application of AI, machine learning or other advanced analytic 
+
+techniques into supervision.  Across the PRA, there are increasing examples of the application of new 
+
+advanced analytics and machine learning: be it to improve the quality of firm-by-firm peer analysis; 
+
+monitoring of social media for developments in authorised firms; standardising our assessment of certain 
+
+credit risk books; to automation of the verification of large exposures rules. Gradually over time, 
+
+advances in technology and modelling techniques should – I believe – make more possible the type of 
+
+flexible desk-top simulations of banks’ balance sheets imagined in my example - just as an earlier 
+
+generation of technology enabled, some 25 years ago, quick-fire desk-top simulations of the effect of 
+
+shocks on the macro economy: but there remain significant technical and practical challenges to 
+
+overcome. 
+
+One area where new technology offers, in my opinion, the opportunity for real productivity gains quickly 
+
+is in the field of natural language processing.  In the hypothetical example, I allowed my imaginary 
+
+supervisor of the future to cross-check his/her analysis against that of the supervised firm.  In practice, 
+
+chasing down relevant information, facts and arguments within the voluminous management and board 
+
+information provided by firms is one of the lengthiest challenges faced by supervisors: both finding the 
+
+correct information to assess a particular problem, as well as making sure that relevant information or 
+
+warnings are not accidentally overlooked within the mass of otherwise irrelevant information. It can be 
+
+like searching for the proverbial needle in the haystack.   
+
+More important, however, than outlining personal wish-lists of ideas for the application of new 
+
+technology, is to develop processes that can harness the natural creativity and aptitude of people for 
+
+change.  In the case of applying technology within prudential supervision, processes are needed to 
+
+overcome the classic management problem where one set of people know that there is a business 
+
+process problem that needs fixing, but do not necessarily possess the requisite skills to know how to do 
+
+so (e.g. supervisors); and another group of people have the requisite skills, but do not necessarily 
+
+understand the business problem that needs fixing (e.g. the technology teams). At Bank of England,  
+
+we are exploring flexible mechanisms for encouraging and explicitly matching supervisors together with 
+
+technology experts to brain-storm and jointly design new solutions to quantitative problems. 
+
+ 
+All speeches are available online at www.bankofengland.co.uk/news/speeches 
+
+6 
+
+ 
+6 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+
+Such mechanisms are well suited to the task of finding quick fixes to local problems. A more strategic 
+
+approach, however, is likely to prove necessary to make a reality of a longer-term goal of embedding 
+
+technology at the heart of how prudential risks are supervised – that is, not simply identifying 
+
+applications in supervision that would benefit from technology, but fundamentally re-engineering  
+
+the way we work. To do so is likely to require not just the application of technology, but cultural change 
+
+more broadly – facilitating training and re-skilling, and creating appropriate incentives.   
+
+As well as there being plenty of opportunities for embracing change, there are also, inevitably, 
+
+challenges too – including, for example, the degree of available bandwidth for already busy supervisory 
+
+teams – so our approach will be proportionate and delivered over time, in line with appropriate training. 
+
+How might this transformation impact the ‘day job’ and skills of supervisors?  The aim is  
+
+‘human centred automation’: using technology to free up supervisors’ time to focus on where they can 
+
+add the highest value – making supervisors’ jobs more productive, more insightful and more rewarding.  
+
+To do so is likely to require some change in skills – incorporating more quantitative and analytical skills – 
+
+without altering the fundamental ability to apply judgement to assess key risks to firms’ safety and 
+
+soundness and evaluate practical mitigants. 
+
+And how might changes like those I have described impact firms’ experience of being supervised?  
+
+For the better, I believe.  Smarter, quicker supervision should generate fewer costly ad hoc data 
+
+requests from firms; and generate better-informed, more timely and more insightful supervision. 
+
+CONCLUSION 
+
+Technology is rapidly changing the world around us.  As prudential regulators, we need to understand 
+
+the impact of that technology.  First and foremost, we need to understand its impact on the firms we 
+
+supervise – and the financial system as a whole – if we are to understand properly risks to financial 
+
+stability, and safety and soundness – just as we have always done. There is nothing new in this. 
+
+But what is new is the need – and opportunity - to take advantage of the new technology in our own 
+
+business processes to change the way supervision is done.  Providing answers to the questions I have 
+
+outlined in the preceding remarks will help us to know how far we might, in time, go in introducing 
+
+technology into supervision, and provide a road map for the future of how prudential supervision could 
+
+be done.  Who knows, we might even one day make a reality of the imaginary anecdote of the 
+
+introduction. 
+
+ 
+All speeches are available online at www.bankofengland.co.uk/news/speeches 
+
+7 
+
+ 
+7 
+
+"
