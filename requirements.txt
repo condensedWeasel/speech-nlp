@@ -1,2 +1,5 @@
 numpy
 pandas
+spacy
+sklearn
+wordcloud
