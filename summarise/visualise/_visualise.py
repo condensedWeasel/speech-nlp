@@ -14,7 +14,7 @@ import math
 
 nlp     = spacy.load("en_core_web_lg")    
 
-def plot_histogram( tokens, n_tokens=15 ):
+def plot_histogram( tokens, n_tokens=15, filename="" ):
     """Plots histogram of tokens
     Parameters
     ----------
@@ -41,6 +41,10 @@ def plot_histogram( tokens, n_tokens=15 ):
         data=token_count_df.head( n_tokens ),
         palette="Blues_d"   
         )
+
+    # Save plot
+    if len( filename ) > 0 :
+        plt.savefig( filename, bbox_inches = 'tight' )    
     # Show
     plt.show() 
 
@@ -85,7 +89,7 @@ def count_document_tokens( documents ):
     document_token_count_df = pd.concat(token_counts, axis=1, ignore_index=False)    
     return document_token_count_df
 
-def plot_wordcloud( tokens, mask_image="" ):
+def plot_wordcloud( tokens, mask_image="", filename="" ):
     """Plots wordcloud of tokens
     Parameters
     ----------
@@ -94,6 +98,9 @@ def plot_wordcloud( tokens, mask_image="" ):
 
     mask_image : string
         path to mask image
+    
+    filename : string
+        path to save output to
 
     Returns
     -------
@@ -121,6 +128,10 @@ def plot_wordcloud( tokens, mask_image="" ):
                     background_color = 'black',                        
                     min_font_size = 10).generate(clean_text)
 
+    # Save WordCloud
+    if len(filename) > 0:
+        wordcloud.to_file(filename)
+    
     # plot the WordCloud image                        
     plt.figure( figsize = (8, 8), facecolor = None ) 
     plt.imshow( wordcloud, interpolation="bilinear" ) 
