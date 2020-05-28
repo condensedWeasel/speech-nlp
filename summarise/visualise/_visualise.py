@@ -85,7 +85,7 @@ def count_document_tokens( documents ):
     document_token_count_df = pd.concat(token_counts, axis=1, ignore_index=False)    
     return document_token_count_df
 
-def plot_wordcloud( tokens, mask_image="" ):
+def plot_wordcloud( tokens, mask_image="", filename="" ):
     """Plots wordcloud of tokens
     Parameters
     ----------
@@ -121,6 +121,10 @@ def plot_wordcloud( tokens, mask_image="" ):
                     background_color = 'black',                        
                     min_font_size = 10).generate(clean_text)
 
+    # Save WordCloud
+    if len(filename) > 0:
+        wordcloud.to_file(filename)
+    
     # plot the WordCloud image                        
     plt.figure( figsize = (8, 8), facecolor = None ) 
     plt.imshow( wordcloud, interpolation="bilinear" ) 
