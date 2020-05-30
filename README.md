@@ -1,6 +1,8 @@
 # speech-nlp
 Summarise speeches contained in .pdf documents.
 
+![Example Output](img/example_output.png)
+
 ## Package contents
 - `summary.io` Import / export utilities for pdf file conversion
 - `summary.preprocess` Data cleaning utilies
