@@ -1,11 +1,15 @@
-from collections import OrderedDict
 import numpy as np
+import networkx as nx
 import spacy
+from collections import OrderedDict
 from spacy.lang.en.stop_words import STOP_WORDS
+from summarise.preprocess import clean_tokens
+from sklearn.metrics.pairwise import cosine_similarity
 
-nlp = spacy.load('en_core_web_sm')
+# SpaCy models
+nlp = spacy.load('en_core_web_lg')
 
-class TextRank4Keyword():
+class KeywordTextRank():
     """Extract keywords from text"""
     
     def __init__(self):
@@ -91,7 +95,7 @@ class TextRank4Keyword():
                 break
         
         
-    def analyze(self, text, 
+    def analyse(self, text, 
                 candidate_pos=['NOUN', 'PROPN'], 
                 window_size=4, lower=False, stopwords=list()):
         """Main function to analyze text"""
@@ -132,3 +136,67 @@ class TextRank4Keyword():
             node_weight[word] = pr[index]
         
         self.node_weight = node_weight
+
+class SentenceTextRank():
+    """Extract ranked sentences from text"""
+    def __init__(self):        
+        self.rows       = 0
+
+    def create_sentence_vectors(self, doc, subract_mean=False):
+        """ Creates mean sentence vectors"""
+        sentences = list( doc.sents )
+        sentence_vectors = []
+        self.rows = sentences[0].vector.size
+        for sentence in sentences:
+            clean = filter(clean_tokens, sentence)
+            clean_sentence = list(clean)
+            n_tokens = len(clean_sentence)
+            if n_tokens !=0:
+                v = sum([t.vector for t in clean_sentence]) / n_tokens
+            else:
+                v = np.zeros((self.rows,))
+            sentence_vectors.append(v)
+        # Subtract mean vector
+        if subract_mean == True:
+            sentence_vectors = sentence_vectors - (sum(sentence_vectors) / len(sentences))
+        return sentences, sentence_vectors
+    
+    def create_similarity_matrix(self, sentence_vectors):
+        """Creates similarity matrix """
+        
+        n_sentences = len(sentence_vectors)
+        similarity_matrix = np.zeros([n_sentences, n_sentences])
+        for i in range(n_sentences):
+            for j in range(n_sentences):
+                if i != j:
+                    similarity_matrix[i][j] = cosine_similarity(sentence_vectors[i].reshape(1,self.rows), sentence_vectors[j].reshape(1,self.rows))[0,0]
+        return similarity_matrix
+
+    def analyse( self, text ):
+        """Performs word embedding to caluclate sentence vectors and uses PageRank alogithm to rank sentences to use for summary
+        Inputs
+        ------
+        text: string
+            String containing document text
+
+        Returns
+        -------
+        ranked_sentences : list
+            List of sentences in descending ranked order
+        
+        """
+
+        # Tokenise
+        doc = nlp( text )
+
+        # Create sentence vectors
+        sentences, sentence_vectors = self.create_sentence_vectors( doc, subract_mean=False )
+
+        # Create similarity matrix
+        similarity_matrix = self.create_similarity_matrix( sentence_vectors )
+
+        # Rank sentences
+        nx_graph            = nx.from_numpy_array( similarity_matrix )
+        scores              = nx.pagerank( nx_graph )
+        ranked_sentences    = sorted(((scores[i],s) for i,s in enumerate( sentences )), reverse=True)
+        return ranked_sentences
